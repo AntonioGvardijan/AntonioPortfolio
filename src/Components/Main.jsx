@@ -30,7 +30,6 @@ function Main(){
         <div className="w-full"></div>
         <div className="w-full"></div>
         
-        
         <div className="indicator">
             <span></span>
             <span></span>
@@ -38,7 +37,7 @@ function Main(){
             <span></span>
         </div>
         
-        
+        <a href="#test" className="indicator-click"></a>
         
     </div>
         
