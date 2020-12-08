@@ -5,7 +5,7 @@ import logo from '../Images/Logo/Logo2.png';
 
 function Logo(){
     return(
-        <div className="container flex justify-center">
+        <div className="flex justify-center">
             <img src={logo} className="w-4/5 my-8"></img>
         </div>
     )
