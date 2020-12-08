@@ -32,7 +32,6 @@ Use a more readable tab size (opinionated).
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background: #2e2e2e;
 }
 
 /*
@@ -568,65 +567,6 @@ video {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-  }
-}
-
-.indicator{
-  position: absolute;
-  width: 2vw;
-  height: 2vw;
-  transform: rotate(45deg);
-  top: 85%;
-}
-
-.indicator span{
-  
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  border: none;
-  border-right: 3px solid #77FDC8;
-  border-bottom: 3px solid #77FDC8;
-  animation: animate 0.7s linear infinite;
-}
-
-.indicator span:nth-child(1){
-  top: -2vw;
-  left: -2vw;
-  animation-delay: 0s;
-}
-.indicator span:nth-child(2){
-  top: -1vw;
-  left: -1vw;
-  animation-delay: 0.15s;
-}
-.indicator span:nth-child(3){
-  top: 0vw;
-  left: 0vw;
-  animation-delay: 0.3s;
-}
-
-.indicator span:nth-child(4){
-  top: 1vw;
-  left: 1vw;
-  animation-delay: 0.45s;
-}
-
-/* color 6DC6AC */
-
-@keyframes animate{
-  0%{
-    border-color: #77FDC8;
-    transform: translate(0,0);
-  }
-  20%{
-    border-color: #77FDC8;
-    transform: translate(1vw,1vw);
-  }
-  20.1%, 100%{
-    border-color: white
   }
 }
 
@@ -171937,3 +171877,5 @@ video {
     animation: bounce 1s infinite;
   }
 }
+
+ 

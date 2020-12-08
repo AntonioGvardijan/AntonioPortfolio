@@ -1,13 +1,11 @@
 import React from 'react';
-import Indicator from './Components/Indicator';
-import Logo from './Components/Logo';
-
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div>
-        <Logo></Logo>
-        <Indicator></Indicator>
+    <div>    
+        <Main></Main>
+        
     </div>
   );
 }
