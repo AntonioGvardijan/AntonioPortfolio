@@ -571,12 +571,18 @@ video {
   }
 }
 
+.logo-img{
+  left: 50%;
+  transform: translateY(-50%);
+}
+
 .indicator{
   position: absolute;
   width: 2vw;
   height: 2vw;
   transform: rotate(45deg);
   top: 85%;
+  
 }
 
 .indicator span{
