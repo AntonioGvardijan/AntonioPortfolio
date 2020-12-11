@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "react-alice-carousel": "^2.1.0"
+    "react-alice-carousel": "^2.1.0",
+    "stylelint-config-recommended": "^3.0.0"
   }
 }

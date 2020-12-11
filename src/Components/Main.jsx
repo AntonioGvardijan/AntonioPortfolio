@@ -38,6 +38,10 @@ function Main(){
         </div>
         
         <a href="#test" className="indicator-click"></a>
+
+        <div>
+            ---------
+        </div>
         
     </div>
         
