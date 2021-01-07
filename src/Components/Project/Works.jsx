@@ -4,8 +4,6 @@ import image2 from '../../Images/House test.png';
 import image3 from '../../Images/MarieProject.PNG';
 import image4 from '../../Images/otok.jpg';
 import image5 from '../../Images/Marie S. Curie projekt.png';
-import image6 from '../../Images/ZavršniRad_GvardijanA.avi';
-import image7 from '../../Images/0001-0799.mp4';
 import {FaAngleRight} from 'react-icons/fa'
 import {
     ProjectContainer,
@@ -20,8 +18,6 @@ import {
 
 
 const Project = ({setSelectedImage1, setSelectedImage2, setSelectedImage3, setSelectedImage4}) => {
-
-    let className1 = 'text1';
 
     return(
         <ProjectContainer id='project'>
