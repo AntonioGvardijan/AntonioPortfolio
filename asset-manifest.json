@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AntonioPortfolio/static/css/main.59de74a4.chunk.css",
+    "main.js": "/AntonioPortfolio/static/js/main.af0b8581.chunk.js",
+    "main.js.map": "/AntonioPortfolio/static/js/main.af0b8581.chunk.js.map",
+    "runtime-main.js": "/AntonioPortfolio/static/js/runtime-main.873ffdca.js",
+    "runtime-main.js.map": "/AntonioPortfolio/static/js/runtime-main.873ffdca.js.map",
+    "static/js/2.7969de8d.chunk.js": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js",
+    "static/js/2.7969de8d.chunk.js.map": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.map",
+    "index.html": "/AntonioPortfolio/index.html",
+    "static/css/main.59de74a4.chunk.css.map": "/AntonioPortfolio/static/css/main.59de74a4.chunk.css.map",
+    "static/js/2.7969de8d.chunk.js.LICENSE.txt": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.LICENSE.txt",
+    "static/media/0285.062fb126.png": "/AntonioPortfolio/static/media/0285.062fb126.png",
+    "static/media/House test.fb50de73.png": "/AntonioPortfolio/static/media/House test.fb50de73.png",
+    "static/media/Logo2.92f5deb0.png": "/AntonioPortfolio/static/media/Logo2.92f5deb0.png",
+    "static/media/Marie S. Curie projekt.0a4493b1.png": "/AntonioPortfolio/static/media/Marie S. Curie projekt.0a4493b1.png",
+    "static/media/MarieProject.6ca6f24c.PNG": "/AntonioPortfolio/static/media/MarieProject.6ca6f24c.PNG",
+    "static/media/otok.2f67bd0e.jpg": "/AntonioPortfolio/static/media/otok.2f67bd0e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.873ffdca.js",
+    "static/js/2.7969de8d.chunk.js",
+    "static/css/main.59de74a4.chunk.css",
+    "static/js/main.af0b8581.chunk.js"
+  ]
+}
