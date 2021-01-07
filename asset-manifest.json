@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AntonioPortfolio/static/css/main.59de74a4.chunk.css",
+    "main.css": "/AntonioPortfolio/static/css/main.7dd5ad5a.chunk.css",
     "main.js": "/AntonioPortfolio/static/js/main.af0b8581.chunk.js",
     "main.js.map": "/AntonioPortfolio/static/js/main.af0b8581.chunk.js.map",
     "runtime-main.js": "/AntonioPortfolio/static/js/runtime-main.873ffdca.js",
@@ -8,7 +8,7 @@
     "static/js/2.7969de8d.chunk.js": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js",
     "static/js/2.7969de8d.chunk.js.map": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.map",
     "index.html": "/AntonioPortfolio/index.html",
-    "static/css/main.59de74a4.chunk.css.map": "/AntonioPortfolio/static/css/main.59de74a4.chunk.css.map",
+    "static/css/main.7dd5ad5a.chunk.css.map": "/AntonioPortfolio/static/css/main.7dd5ad5a.chunk.css.map",
     "static/js/2.7969de8d.chunk.js.LICENSE.txt": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.LICENSE.txt",
     "static/media/0285.062fb126.png": "/AntonioPortfolio/static/media/0285.062fb126.png",
     "static/media/House test.fb50de73.png": "/AntonioPortfolio/static/media/House test.fb50de73.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.873ffdca.js",
     "static/js/2.7969de8d.chunk.js",
-    "static/css/main.59de74a4.chunk.css",
+    "static/css/main.7dd5ad5a.chunk.css",
     "static/js/main.af0b8581.chunk.js"
   ]
 }
