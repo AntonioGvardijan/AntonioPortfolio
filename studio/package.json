@@ -2,13 +2,16 @@
   "name": "studio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://antoniogvardijan.github.io/PortfolioPage/",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)",
   "main": "package.json",
   "author": "Gvar Dijan <toni.gvardijan7@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "predeploy": "yarn-build",
+    "deploy" : "gh-pages -d build"
   },
   "keywords": [
     "sanity"
