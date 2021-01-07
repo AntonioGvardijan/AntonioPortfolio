@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Main from './Components/Main';
 
 function App() {
@@ -10,6 +10,19 @@ function App() {
         
     </div>
   );
+}
+
+export default App;*/
+
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Home from "./Components/Pages/index";
+
+function App(){
+  return(
+    <Router>
+      <Home></Home>
+    </Router>
+  )
 }
 
 export default App;
