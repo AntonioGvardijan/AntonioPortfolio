@@ -9,6 +9,7 @@ import ProjectPop2 from '../ProjectPop/ProjectPop2'
 import ProjectPop3 from '../ProjectPop/ProjectPop3'
 import ProjectPop4 from '../ProjectPop/ProjectPop4'
 import Sidebar from '../Sidebar/Sidebar'
+import Splash from '../Splash/Splash'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ const Home = () => {
 
     return (
         <>
+            <Splash></Splash>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navigation toggle={toggle} />
             <Main/>

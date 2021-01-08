@@ -12,7 +12,7 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
 
 } from './NavElements'
 
@@ -40,9 +40,17 @@ const Navigation = ({toggle}) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavBarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>
-                        <img src={logo} className="h-4/5"></img>
-                    </NavLogo>
+                    
+                        <NavLogo to="home" 
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >
+                            <img src={logo} alt="Logo" className="h-4/5"></img>
+                        </NavLogo>
+                   
                     <MobileIcon onClick={toggle}>
                         <FaBars></FaBars>
                     </MobileIcon>
