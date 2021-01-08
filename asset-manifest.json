@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AntonioPortfolio/static/css/main.2c900ce9.chunk.css",
-    "main.js": "/AntonioPortfolio/static/js/main.c940852e.chunk.js",
-    "main.js.map": "/AntonioPortfolio/static/js/main.c940852e.chunk.js.map",
-    "runtime-main.js": "/AntonioPortfolio/static/js/runtime-main.873ffdca.js",
-    "runtime-main.js.map": "/AntonioPortfolio/static/js/runtime-main.873ffdca.js.map",
-    "static/js/2.7969de8d.chunk.js": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js",
-    "static/js/2.7969de8d.chunk.js.map": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.map",
-    "index.html": "/AntonioPortfolio/index.html",
-    "static/css/main.2c900ce9.chunk.css.map": "/AntonioPortfolio/static/css/main.2c900ce9.chunk.css.map",
-    "static/js/2.7969de8d.chunk.js.LICENSE.txt": "/AntonioPortfolio/static/js/2.7969de8d.chunk.js.LICENSE.txt",
-    "static/media/0285.062fb126.png": "/AntonioPortfolio/static/media/0285.062fb126.png",
-    "static/media/House test.fb50de73.png": "/AntonioPortfolio/static/media/House test.fb50de73.png",
-    "static/media/Logo2.92f5deb0.png": "/AntonioPortfolio/static/media/Logo2.92f5deb0.png",
-    "static/media/Marie S. Curie projekt.0a4493b1.png": "/AntonioPortfolio/static/media/Marie S. Curie projekt.0a4493b1.png",
-    "static/media/MarieProject.6ca6f24c.PNG": "/AntonioPortfolio/static/media/MarieProject.6ca6f24c.PNG",
-    "static/media/otok.2f67bd0e.jpg": "/AntonioPortfolio/static/media/otok.2f67bd0e.jpg"
+    "main.css": "/static/css/main.2c900ce9.chunk.css",
+    "main.js": "/static/js/main.c940852e.chunk.js",
+    "main.js.map": "/static/js/main.c940852e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.173bed61.js",
+    "runtime-main.js.map": "/static/js/runtime-main.173bed61.js.map",
+    "static/js/2.a76ebc8b.chunk.js": "/static/js/2.a76ebc8b.chunk.js",
+    "static/js/2.a76ebc8b.chunk.js.map": "/static/js/2.a76ebc8b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2c900ce9.chunk.css.map": "/static/css/main.2c900ce9.chunk.css.map",
+    "static/js/2.a76ebc8b.chunk.js.LICENSE.txt": "/static/js/2.a76ebc8b.chunk.js.LICENSE.txt",
+    "static/media/0285.062fb126.png": "/static/media/0285.062fb126.png",
+    "static/media/House test.fb50de73.png": "/static/media/House test.fb50de73.png",
+    "static/media/Logo2.92f5deb0.png": "/static/media/Logo2.92f5deb0.png",
+    "static/media/Marie S. Curie projekt.0a4493b1.png": "/static/media/Marie S. Curie projekt.0a4493b1.png",
+    "static/media/MarieProject.6ca6f24c.PNG": "/static/media/MarieProject.6ca6f24c.PNG",
+    "static/media/otok.2f67bd0e.jpg": "/static/media/otok.2f67bd0e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.873ffdca.js",
-    "static/js/2.7969de8d.chunk.js",
+    "static/js/runtime-main.173bed61.js",
+    "static/js/2.a76ebc8b.chunk.js",
     "static/css/main.2c900ce9.chunk.css",
     "static/js/main.c940852e.chunk.js"
   ]
