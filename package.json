@@ -2,11 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": "https://agvardijan.com",
-=======
-  "homepage": "https://agvardijan.com/",
->>>>>>> f6a49e070cb13d70d95df573f5e0fba0a3c22fb2
   "dependencies": {
     "@sanity/client": "^2.1.0",
     "@testing-library/jest-dom": "^5.11.4",
