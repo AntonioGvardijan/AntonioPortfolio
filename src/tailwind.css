@@ -32,7 +32,6 @@ Use a more readable tab size (opinionated).
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background: #2e2e2e;
 }
 
 /*
@@ -459,7 +458,7 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: 600;
+  font-weight: inherit;
 }
 
 /**
@@ -29127,6 +29126,295 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  background: #282B35;
+}
+
+.page-color{
+  background: #282B35;
+}
+
+.rotate-105{
+  transform: rotate(180deg);
+}
+
+.my-color{
+  color: #5EC8D2;
+}
+
+.logo-img{
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.indicator{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  transform: rotate(45deg);
+  top: 85%;
+}
+
+.indicator-click{
+  position: absolute;
+  width: 4vw;
+  height: 10vw;
+  top: 85%;
+  margin: -2vh -1vw;
+}
+
+.indicator span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-right: 3px solid #77FDC8;
+  border-bottom: 3px solid #77FDC8;
+  animation: animate 0.7s linear infinite;
+}
+
+.indicator span:nth-child(1){
+  top: -2vw;
+  left: -2vw;
+  animation-delay: 0s;
+}
+
+.indicator span:nth-child(2){
+  top: -1vw;
+  left: -1vw;
+  animation-delay: 0.15s;
+}
+
+.indicator span:nth-child(3){
+  top: 0vw;
+  left: 0vw;
+  animation-delay: 0.3s;
+}
+
+.indicator span:nth-child(4){
+  top: 1vw;
+  left: 1vw;
+  animation-delay: 0.45s;
+}
+
+.text-id{
+  font-size: clamp(35px, 8vw, 80px);
+}
+
+.text-id-small{
+  font-size: var(--fz-xl);
+}
+
+.text-id-small2{
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+}
+
+.text-2em{
+  font-size: 2em;
+}
+
+.text-8em{
+  font-size: 5em;
+}
+
+.text-2em{
+  font-size: 2em;
+}
+
+.text-2em{
+  font-size: 2em;
+}
+
+.text1{
+  content: "neki text";
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.backdrop img{
+  display: block;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 10% auto 20px;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.backdrop iframe{
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 10% auto 20px;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.backdrop p{
+  display: block;
+  width: 100%;
+  max-width: 768px;
+  height: 100%;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 0 auto 20px;
+}
+
+.backdrop a{
+  color: #5EC8D2
+}
+
+.right-bar{
+  width: 40px;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 60px;
+  z-index: 10;
+}
+
+.left-bar{
+  width: 40px;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  right: auto;
+  left: 60px;
+  z-index: 10;
+}
+
+.email-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.github-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.github-div a{
+  margin: 20px auto;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.github-div a:hover{
+  color: #5EC8D2;
+  transform: translateY(-5px);
+  transition: all 0.4s ease;
+}
+
+.github-div::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background: white;
+}
+
+.email-div a{
+  margin: 20px auto;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.email-div a:hover{
+  color: #5EC8D2;
+  transform: translateY(-5px);
+  transition: all 0.4s ease;
+}
+
+.email-div::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background: white;
+}
+
+@media screen and (max-width:960px){
+  .right-bar{
+    display: none;
+  }
+
+  .left-bar{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px){
+  .backdrop img{
+    display: block;
+    max-width: 100%;
+    max-height: 40%;
+    margin: 50% auto 20px;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+
+  .backdrop iframe{
+    display: block;
+    max-width: 100%;
+    max-height: 40%;
+    margin: 50% auto 20px;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+
+  .backdrop p{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1.5rem;
+    margin: 0;
+  }
+}
+
+.top-css{
+  margin-top: -80px;
+}
+
+/* color 6DC6AC */
+
+@keyframes animate{
+  0%{
+    border-color: #77FDC8;
+    transform: translate(0,0);
+  }
+
+  20%{
+    border-color: #77FDC8;
+    transform: translate(1vw,1vw);
+  }
+
+  20.1%, 100%{
+    border-color: white
+  }
 }
 
 @media (min-width: 640px) {

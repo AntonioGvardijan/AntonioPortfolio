@@ -20,12 +20,14 @@ const About = () => {
                     Hello! I'm Antonio, a web developer and designer based in Zagreb, Croatia.
                 </AboutText>
                 <AboutText>
-                    I love making content that lives on the internet, whatever that be websites, banners, images for promotion or anything similiar.
-                    My goal is to make everything perfect and pleasent to see. 
+                    I love making content that lives on the internet, whatever that be websites, banners, images for promotion or anything similar.
+                    My goal is to make everything perfect and pleasing to see. 
                 </AboutText>
                 <AboutText>
-                    I have graduated at <span className=" my-color">Zagreb University of Applied Sciences</span> in 2020 with Final paper in 3D design and animation. I love expanding my knowladge and skills and try to improve on my existing skills all the time.
-                    Here are a few texhnologies and programs I'm working with:
+                    I have graduated at <span className=" my-color">Zagreb University of Applied Sciences</span>
+                     in 2020 with a Final Bachelor Project in 3D design and animation. I love expanding my knowledge and 
+                     skills and try to improve on my existing skills all the time.
+                    Here are a few technologies and programs I'm working with:
                 </AboutText>
                 <AboutList>
                     <ABoutListItem>

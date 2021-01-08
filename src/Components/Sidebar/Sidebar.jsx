@@ -19,13 +19,37 @@ const Sidebar = ({isOpen, toggle}) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to="home" onClick={toggle}>Home</SidebarLink>
-                        <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                        <SidebarLink to="project" onClick={toggle}>Projects</SidebarLink>
-                        <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
+                        <SidebarLink to="home" onClick={toggle}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        >Home</SidebarLink>
+                        <SidebarLink to="about" onClick={toggle}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        >About</SidebarLink>
+                        <SidebarLink to="project" onClick={toggle}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        >Projects</SidebarLink>
+                        <SidebarLink to="contact" onClick={toggle}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        >Contact</SidebarLink>
                     </SidebarMenu>
                     <SidebarBtn>
-                        <SidebarBtnLink><a href="mailto:a@gmail.com">Contact Me</a></SidebarBtnLink>
+                        <SidebarBtnLink><a href="https://drive.google.com/file/d/1YulIIaGMmJzJT4B-H4AIAHo36tZPSaf_/view?usp=sharing">Resume</a></SidebarBtnLink>
                     </SidebarBtn>
                 </SidebarWrapper>
             </SidebarContainer>

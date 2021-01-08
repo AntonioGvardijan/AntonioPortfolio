@@ -16,10 +16,10 @@ const Contact = () => {
             <ContactContainer id="contact">
                 <ContactH1><FaAngleRight className="inline my-color"></FaAngleRight>Get In Touch!</ContactH1>
                 <ContactText>I'm always looking for new opportunities and challenges as well as gaining new experiences. 
-                    If you want to know more about me, hire me or just say hi, I'll always rensonse to you!</ContactText>
+                    If you want to know more about me, hire me or just say hi, I'll always response to you!</ContactText>
                 <ContactWrap>
                     <ContactBtn>
-                        <ContactBtnLink><a href="mailto:a@gmail.com">Contact Me</a></ContactBtnLink>
+                        <ContactBtnLink><a href="mailto:gvardijan.a@gmail.com">Contact Me</a></ContactBtnLink>
                     </ContactBtn>
                     <ContactFooter>Designed & Built by <span className="my-color">Antonio Gvardijan</span></ContactFooter>
                 </ContactWrap>

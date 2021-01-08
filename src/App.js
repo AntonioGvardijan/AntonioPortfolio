@@ -20,7 +20,7 @@ import Home from "./Components/Pages/index";
 function App(){
   return(
     <Router>
-      <Home></Home>
+      <Home className="page-color"></Home>
     </Router>
   )
 }

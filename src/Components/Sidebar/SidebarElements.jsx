@@ -11,7 +11,7 @@ export const SidebarContainer = styled.aside`
     z-index: 998;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: rgba(0, 0, 0, 0.90);
     display: grid;
     align-items: center;
     top: 0;
@@ -73,25 +73,28 @@ export const SidebarLink = styled(LinkS)`
 
 export const SidebarBtn = styled.div`
     display: flex;
+    margin: 0 auto;
+    width: 105px;
     justify-content: center;
+    color: white;
+    background: transparent;
+    border: 1px solid #5EC8D2;
+    border-radius: 4px;
 `
 
 export const SidebarBtnLink = styled.button`
-    border-radius: 5px;
-    background: #5EC8D2;
+    
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
     font-size: 1rem;
     outline: none;
-    border: none;
+    
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
     &:hover{
         transition: all 0.2 ease-in-out;
-        background: #77FDC8;
-        color: #010606;
+        background: rgba(119, 253, 200, 0.6);
     }
 `

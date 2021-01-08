@@ -6,7 +6,11 @@
 
 body{
     font-family: Helvetica, Arial, sans-serif;
+    background: #282B35;
+}
 
+.page-color{
+    background: #282B35;
 }
 
 .rotate-105{

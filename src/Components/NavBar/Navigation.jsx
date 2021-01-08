@@ -85,7 +85,7 @@ const Navigation = ({toggle}) => {
                             >Contact</NavLinks>
                         </NavItem>
                         <NavBtn>
-                        <NavBtnLink><a href="https://drive.google.com/file/d/104v9Mq6n5l2w1VJ5i-Oy07RExSFL_GON/view?usp=sharing">Resume</a></NavBtnLink>
+                        <NavBtnLink><a href="https://drive.google.com/file/d/1YulIIaGMmJzJT4B-H4AIAHo36tZPSaf_/view?usp=sharing">Resume</a></NavBtnLink>
                     </NavBtn>
                     </NavMenu>
                     
