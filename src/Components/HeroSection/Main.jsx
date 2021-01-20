@@ -63,7 +63,7 @@ const Main = () =>{
         </PointerClick>
 
         <div orientation="left" className="left-bar">
-            <div className="github-div"><a href="https://github.com/AntonioGvardijan/PortfolioPage.git">github</a></div>
+            <div className="github-div"><a href="https://github.com/AntonioGvardijan/AntonioPortfolio.git">github</a></div>
         </div>
 
         <div orientation="right" className="right-bar">
